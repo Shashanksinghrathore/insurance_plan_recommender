@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='css/bootstrap.css' rel='stylesheet' />
+    <link href='css/policies.css' rel='stylesheet' />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+<script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+       
+</head>
+<body>
+        <%- include partials/header.ejs %>
+        <div class="row animated fadeInLeft bg-warning"  style="position:absolute;top:13%;right:2.8%;">
+                <div class="col-md-2 btn float-right"><a href="final" >Next <i class="fa fa-arrow-circle-right"></a></i></div>
+        </div>
+        <div class="row" style="position:absolute;top:20%;left:2.8%;">
+            <div class="col-md-3">
+                    <div class="card transition">
+                            <h2 class="transition">Children Plans</h2>
+                            <p>Child plans basically help in financial planning for your child's future needs at the right age. As a parent you can secure your child’s future with plans that encompass children insurance plans and children education plans.</p>
+                            <div class="cta-container transition"><a href="#" class="cta" onclick="changeVideo('4vEcupWQh5I')">Video</a></div>
+                            <div class="card_circle transition" id="image1"></div>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card transition">
+                            <h2 class="transition">Health Plans</h2>
+                            <p>Health Insurance is a kind of insurance that provides coverage for medical expenses to the policy holder. Depending on the health insurance plan chosen the policy holder can get coverage for critical illness expenses, surgical expenses, hospital expenses etc.</p>
+                            <div class="cta-container transition"><a href="#" class="cta" onclick="changeVideo('UiLPAK7Z3iw')">Video</a></div>
+                            <div class="card_circle transition" id="image2"></div>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card transition">
+                            <h2 class="transition">Retirement Plans</h2>
+                            <p>Retirement &nbsp; Pension Plans provide you with financial security so that when your professional income starts to ebb, you can still live with pride without compromising on your living standards. Given the high cost of living and rising inflation, Retirement planning has become all the more important.</p>
+                            <div class="cta-container transition"><a href="#" class="cta" onclick="changeVideo('ytvIvsFdyX8')">Video</a></div>
+                            <div class="card_circle transition" id="image3"></div>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card transition">
+                            <h2 class="transition">Women Plans</h2>
+                            <p>Women’s insurance plan caters to different financial needs of women. Women’s plans are a set of specially created and hand-picked products which suit the needs of women at different stages of their life; such as protection, health, retirement, child’s education and long term savings and investments.</p>
+                            <div class="cta-container transition"><a href="#" class="cta" onclick="changeVideo('OPgoyhoYeuU')">Video</a></div>
+                            <div class="card_circle transition" id="image4"></div>
+                    </div>
+            </div>
+        </div>
+                <!-- Modal -->
+                <div class="modal fade" style="display:hidden;z-index:10000;" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                            
+                              <iframe id="iframeYoutube" width="540" height="315"  src="https://www.youtube.com/embed/e80BbX05D7Y" frameborder="0" allowfullscreen></iframe> 
+                              
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        <script>
+        $(document).ready(function(){
+  $("#myModal").on("hidden.bs.modal",function(){
+    $("#iframeYoutube").attr("src","#");
+  })
+})
+
+function changeVideo(vId){
+  var iframe=document.getElementById("iframeYoutube");
+  iframe.src="https://www.youtube.com/embed/"+vId;
+
+  $("#myModal").modal("show");
+}
+</script>
+</body>
+</html>

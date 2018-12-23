@@ -1,0 +1,133 @@
+ RESTART: C:\Users\Kranthi\Documents\GitHub\Twitter-Mining-using-tweepy\user_details_fb.py 
+Name - Kranthi Kiran
+Id -  1639535079461235
+Email -  kranthi.kiran9654238901@gmail.com
+Estimated Age -  19
+Birthday -  02/13/1999
+About -  You know who I am. Right?
+Work Details - 
+
+Work Place -  Army Institute of Technology, Pune
+Work Position -  Spiderman
+Work StartDate -  0000-00
+Work Location -  Pune, Maharashtra
+1637175483030528
+2018-03-19T08:28:01+0000
+Sky Station Viman nagar
+18.56662185
+73.9136241
+Pune
+411032
+India
+
+
+1490571177690960
+2017-10-18T11:12:16+0000
+Imagica
+18.7678149329
+73.2815191391
+Khopoli
+410203
+India
+
+
+1445915705489841
+2017-08-25T07:02:17+0000
+Kota, Rajasthan
+25.164
+75.8584
+Kota
+324001 to 324011 and 324022
+India
+
+
+1279641178783962
+2017-03-06T04:50:03+0000
+VIT University
+12.9698520257
+79.1556057718
+Vellore
+600048
+India
+
+
+1234595263288554
+2017-01-23T11:29:24+0000
+Army Institute of Technology, Pune
+18.61826667
+73.87676111
+Pune
+411015
+India
+
+
+1209859205762160
+2016-12-25T03:41:44+0000
+PVR Nitesh Hub, Koregaon Park
+18.5385360085
+73.9076298561
+Pune
+411001
+India
+
+
+1205384206209660
+2016-12-18T15:55:15+0000
+Pheonix Mall, Pune, India
+18.5618634374
+73.9169470529
+Pune
+411014
+India
+
+
+995171693897580
+2016-03-26T09:20:59+0000
+Kendriya Vidyalaya Waltair
+17.733057
+83.291732
+Vishakhapatnam
+530016
+India
+
+
+721339061280846
+2014-10-18T17:37:55+0000
+Visakhapatnam
+17.7
+83.25
+Visakhapatnam
+530048
+India
+
+
+613649712049782
+2014-03-21T11:30:00+0000
+Shankar Vihar, Delhi Cantt
+28.5661262551
+77.1374726625
+New Delhi
+110010
+India
+
+
+Gender -  male
+Hometown -  Vishakhapatnam, Andhra Pradesh, India
+Location -  Pune, Maharashtra
+
+#The User's Post's Starts here - 
+#EXAMPLE - 
+
+1639535079461235_701062306641855
+2014-09-09T14:15:23+0000
+I still love to play with beer.
+
+
+1639535079461235_700678016680284
+2014-09-08T17:46:43+0000
+ _Shared Story 
+
+
+1639535079461235_685539924860760
+2014-08-09T14:38:25+0000
+Dear people who update their Facebook status every 30 seconds, there's Twitter for a reason! #shittyupdates
